@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&display=swap');
+
+body {
+    background-image: url(../images/translucent-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Bitter', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.headline {
+    margin-top: 30px;
+}
+
+.tasks {
+    margin-top: 30px;
+}
+
+.tasks__input {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks__input input {
+    width: 400px;
+}
+
+input::placeholder {
+    font-family: 'Bitter', sans-serif;
+    font-size: 18px;
+}
+
+.tasks__text {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Bitter', sans-serif;
+    color: gray;
+}
+
+.task {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tasks .tasks__task:not(:first-child) {
+    margin-top: 5px;
+}
+
+.tasks__task {
+    padding: 15px 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.776);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.tasks__task p {
+    font-family: 'Bitter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(14, 13, 13);
+}
+
+button {
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgba(219, 116, 207, 0.742);
+    font-family: 'Bitter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#clearButton {
+    margin-top: 30px;
+}
